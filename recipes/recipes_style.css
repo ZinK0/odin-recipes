@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(240, 240, 231);
+  font-family: "Merriweather", serif;
+}
+
+/* Back to main button  */
+.backtomain {
+  width: 60%;
+  margin: 200px auto 10px;
+}
+
+.backtomain a {
+  text-decoration: none;
+  color: green;
+}
+
+/* Recipes Card Header */
+.recipe-header {
+  width: 60%;
+  margin: 10px auto 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+
+h1 {
+  /* text-align: center; */
+  /* margin: 100px auto; */
+  padding-left: 40px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-size: 50px;
+  font-style: normal;
+}
+
+.recipe-feeling {
+  margin: 10px 0 40px 40px;
+  text-transform: uppercase;
+  font-size: large;
+  color: gray;
+  font-weight: bold;
+}
+
+.recipe-header img {
+  width: 400px;
+  border-radius: 20px;
+}
+
+/* Recipe Summary Section Start Here  */
+.recipe-summary {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.recipe-summary-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.recipe-summary-number {
+  font-size: 40px;
+}
+
+.recipe-summary-item:nth-child(2) {
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
+}
+
+/* Line Divider Style  */
+hr {
+  width: 60%;
+  margin: auto;
+}
+
+/* Ingredients Section Style Start Here  */
+.recipe-ingredients-section {
+  width: 40%;
+  margin: 100px auto;
+}
+
+.recipe-ingredient h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.recipe-ingredient ul {
+  list-style: circle;
+  margin-left: 20px;
+}
+
+.recipe-ingredient li {
+  font-size: 20px;
+  line-height: 50px;
+}
