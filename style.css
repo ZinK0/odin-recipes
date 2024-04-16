@@ -47,6 +47,8 @@ h1 {
 
 .recipe-card img {
   width: 350px;
+  border-radius: 20px;
+  margin-bottom: 10px;
 }
 
 .recipe-card-section li:hover {
